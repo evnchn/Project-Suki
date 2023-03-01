@@ -25,7 +25,7 @@ async def on_ready():
         if guild.id == GUILD_ID:
             break
             
-    category_name = "Catering Quota Online - Project Suki"
+    category_name = "Project Suki"
     category = discord.utils.get(guild.categories, name=category_name)
 
     if not category:
